@@ -7,11 +7,11 @@
    *    when an Eventbrite order is made (e.g. ticket-bought=1)
    * 3. A Sendy API key
    * 4. This file saved somewhere under your Sendy installation, e.g.
-   *    /path/to/sendy/webhooks/eventbrite.php
+   *    /path/to/sendy/webhooks/eventbrite-receiver.php
    * 5. An Eventbrite account
    * 6. An Eventbrite webhook configured with an order.placed action and the URL
    *    to this file in your Sendy installation, e.g.
-   *    http://sendy.example.com/webhooks/eventbrite.php
+   *    http://sendy.example.com/webhooks/eventbrite-receiver.php
    * 7. An Eventbrite App, so you can access your personal oauth2 token
    *
    */
@@ -19,7 +19,7 @@
   // Sendy config - update with your details
   $sendy_list                    = "abc123defghij4567"; // your list id
   $sendy_api_key                 = "XXXXXXXXXXXXXXXXX"; // your API key
-  $sendy_url                     = "https://sendy.uxbrighton.org.uk"; // URL of your Sendy installation
+  $sendy_url                     = "https://sendy.example.com"; // URL of your Sendy installation
 
   // Your list's custom field that will be updated with a value once an order
   // is made via Eventbrite

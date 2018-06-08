@@ -2,7 +2,7 @@
   /*
    * Prerequisites:
    *
-   * 1. A Sendy installation
+   * 1. A https://sendy.co installation
    * 2. A Sendy list with a custom field you want updating with a value
    *    when an Eventbrite order is made (e.g. ticket-bought=1)
    * 3. A Sendy API key
